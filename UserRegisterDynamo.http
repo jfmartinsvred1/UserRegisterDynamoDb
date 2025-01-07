@@ -1,0 +1,6 @@
+@UserRegisterDynamo_HostAddress = http://localhost:5277
+
+GET {{UserRegisterDynamo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
