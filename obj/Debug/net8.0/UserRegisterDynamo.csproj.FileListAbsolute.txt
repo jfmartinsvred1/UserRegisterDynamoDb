@@ -29,7 +29,6 @@ C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.UserRegisterDynamo.props
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.UserRegisterDynamo.props
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\UserRegi.C0A2449A.Up2Date
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\UserRegisterDynamo.dll
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\refint\UserRegisterDynamo.dll
@@ -48,3 +47,13 @@ C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\DotNetEnv.dll
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Sprache.dll
 C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\UserRegisterDynamo.sourcelink.json
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Joao\Desktop\Projetos25\UserRegisterDynamo\UserRegisterDynamo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

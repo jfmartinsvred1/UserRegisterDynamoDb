@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using UserRegisterDynamo.Models;
 using UserRegisterDynamo.Repository;
 
@@ -10,20 +11,24 @@ namespace UserRegisterDynamo.Controllers
     {
         private readonly ILogger<UserController> _logger;
         private readonly IUserRepository _userRepository;
+        private readonly TokenService _tokenService;
 
-        public UserController(ILogger<UserController> logger, IUserRepository userRepository)
+        public UserController(ILogger<UserController> logger, IUserRepository userRepository, TokenService tokenService)
         {
             _logger = logger;
             _userRepository = userRepository;
+            _tokenService = tokenService;   
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Create(CreateUser user)
         {
             try
             {
                 await _userRepository.Add(user);
-                return Ok(user);
+                var token = _tokenService.GenerateToken(user.Username);
+                return Ok(token);
             }
             catch (Exception ex)
             {
@@ -31,6 +36,7 @@ namespace UserRegisterDynamo.Controllers
             }
         }
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetByCpf(string cpf,string username,string password)
         {
             var user = await _userRepository.GetByCpf(cpf, username, password);
