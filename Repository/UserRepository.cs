@@ -49,7 +49,6 @@ namespace UserRegisterDynamo.Repository
                 return true;
             }
             return false;
-
         }
 
         public Task Delete(string cpf, string username)
